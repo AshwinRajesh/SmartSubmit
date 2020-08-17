@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="popup.js" charset="ut-8"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+  </head>
+  <body style = "height: 300px; width: 300px; background-image: url('student_writing.png'); background-size: cover">
+        <p style = "margin-top: 20px; font-family: 'Work Sans'; font-size: 30px; text-align: center; color: #f7965c; text-shadow: 2px 2px 4px #a6a6a6">Smart<span style="color: white">Submit</span></p>
+        <div style = "margin-left: 5px; margin-right: 5px; background-color: #f7965c; padding: 2px; border-radius: 5px; margin-bottom: 5px; box-shadow: 2px 2px 4px #a6a6a6">
+            <nav class = "nav justify-content-center" style="padding: 5px">
+                <button style="color: white; font-family: 'Work Sans'; border-radius: 5px; background-color: #f7965c; border: 0px; padding: 5px; padding-left: 10px; padding-right:10px" id="submissions">Submissions</button>
+                <button style="color: white; font-family: 'Work Sans'; margin-left: 10px; border-radius: 5px; background-color: #f7965c; border: 0px; padding: 5px; padding-left: 10px; padding-right:10px" id="assignments">Assignments</button>
+            </nav>
+        </div>
+        <div style = "margin-left: 5px; margin-right: 5px; background-color: #f7965c; padding: 10px; border-radius: 5px; margin-bottom: 5px; box-shadow: 2px 2px 4px #a6a6a6">
+            <p id = "text" style = "font-family: 'Work Sans'; font-size: 20px; color: white">Convert your student's submissions directly into text!</p>
+            <div class = "row">
+                <div class = "col">
+                    <div class="input-group mb-2">
+                      <input id="title" type="text" style="font-family: 'Work Sans'" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col">
+                    <div class="input-group">
+                      <textarea id="description" class="form-control" style="font-family: 'Work Sans'" aria-label="Description" placeholder="Description"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col">
+                    <div class="input-group mt-2">
+                      <textarea id="files" class="form-control" style="font-family: 'Work Sans'" aria-label="Files" placeholder="Files (Google Drive)"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id = "go" style = "margin-left: 5px; margin-right: 5px; align-items:center; display: flex; margin-bottom: 15px; font-family: 'Work Sans'; font-size: 15px; display: block; background-color: #f7965c; color: white; border-radius: 5px; border-width: 0px; padding: 10px; box-shadow: 2px 2px 4px #a6a6a6">Start</button>
+        <button id = "create" style = "margin-left: 5px; margin-right: 5px; text-align: center; margin-bottom: 15px; font-family: 'Work Sans'; font-size: 15px; display: block; background-color: #f7965c; color: white; border-radius: 5px; border-width: 0px; padding: 10px; box-shadow: 2px 2px 4px #a6a6a6">Create</button>
+  </body>
+</html>
